@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEWORK1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="text">Hello World!</h1>
+        <button onclick="blue()" id="btn">变为蓝色</button>
+        <button onclick="black()" id="btn">恢复原来的颜色</button>
+    </div>
+    <script>
+        function blue() 
+        { 
+            document.getElementById("text").style.color = "blue"; 
+        }
+        function black() 
+        { 
+            document.getElementById("text").style.color = "#000000"; 
+        }
+    </script>
+</body>
+
+</html>
